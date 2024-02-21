@@ -1,13 +1,14 @@
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   width: 100vw;
   height: 100vh;
 }
+
 
 .section {
   width: 100vw;
@@ -27,23 +28,27 @@ body {
 .nav {
   width: 100vw;
   height: 40vh;
-  background-color: #000000;
+  background-color: white;
   font-size: x-large;
   color: white;
   text-align: center;
   margin: 10px 5px;
   display: flex;
-  flex-basis: auto;
+  flex-direction: row;
   justify-content: space-around;
   place-items: center;
 }
+
+.nav h1 {
+  text-align: top;
+  color:#EF5354
+}
 .btn {
-  color: white;
-  background-color: #71a796;
+  color: black;
   height: 40px;
   width: max-content;
   padding: 2px;
-  border: 2px solid black;
+  border: 2px solid white;
   text-decoration: none;
 }
 
