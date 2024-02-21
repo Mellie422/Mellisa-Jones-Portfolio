@@ -27,21 +27,21 @@ body {
 .nav {
   width: 100vw;
   height: 40vh;
-  background-color: #3944F7;
+  background-color: #000000;
   font-size: x-large;
   color: white;
   text-align: center;
   margin: 10px 5px;
   display: flex;
-  flex-direction: row;
+  flex-basis: auto;
   justify-content: space-around;
   place-items: center;
 }
 .btn {
   color: white;
-  background-color: #38CC77;
+  background-color: #71a796;
   height: 40px;
-  width: 90px;
+  width: max-content;
   padding: 2px;
   border: 2px solid black;
   text-decoration: none;
