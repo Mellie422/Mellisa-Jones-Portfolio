@@ -1,35 +1,51 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    display: inline;
-  }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.section {
+  width: 100vw;
+  height: 40vh;
+  background-color: #EF5354;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin: 10px 5px;
+}
+
+.one,
+.three {
+  background-color: #E03B8B;
+}
+
+.nav {
+  width: 100vw;
+  height: 40vh;
+  background-color: #3944F7;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  margin: 10px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  place-items: center;
+}
+.btn {
+  color: white;
+  background-color: #38CC77;
+  height: 40px;
+  width: 90px;
+  padding: 2px;
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+
   
